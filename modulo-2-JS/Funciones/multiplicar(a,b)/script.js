@@ -1,3 +1,2 @@
-function sumar(num1, num2) {
-    return num1 * num2;
-  }
+const multiplicar = (a,b) => a*b;
+console.log(multiplicar(3,5))

@@ -7,9 +7,10 @@ function saludar(nombre) {
 function gritar(str) {
     return "¡"+ str +"!";
 }
-function SaludarGritando(nombre,apellido) {
-    const nombreCompleto = obtenerNombreCompleto(nombre,apellido)
-    const saludo = saludar(nombreCompleto)
-    const grito = gritar(saludo)
-   console.log(grito)
+function saludarGritando(nombre, apellido) {
+    var nombreCompleto = obtenerNombreCompleto(nombre, apellido);
+    var saludo = saludar(nombreCompleto);
+    var saludoGritado = gritar(saludo);
+    return saludoGritado;
+    console.log(saludoGritado)
 }

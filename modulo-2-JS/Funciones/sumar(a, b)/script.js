@@ -1,3 +1,4 @@
-function sumar(num1, num2) {
-    return num1 + num2;
+const sumar = (a,b) => {
+    return a + b
   }
+console.log(sumar(5,3) )

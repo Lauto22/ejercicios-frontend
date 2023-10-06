@@ -1,3 +1,4 @@
-function restar(num1, num2) {
-    return num1 - num2;
-  }
+const restar = (a,b) =>{
+  return a - b
+}
+console.log(restar(2,1))

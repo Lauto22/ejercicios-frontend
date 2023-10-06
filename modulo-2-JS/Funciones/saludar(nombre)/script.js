@@ -1,3 +1,4 @@
-function Saludar(nombre) {
-    return "Hola " + nombre + " ,que gusto volver a verte" ;
+const saludar = (a) => {
+    return "Hola " + a + " ,que gusto volver a verte"
 }
+console.log(saludar("Lautaro"))

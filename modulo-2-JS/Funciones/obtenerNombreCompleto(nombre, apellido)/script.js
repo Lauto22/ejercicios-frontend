@@ -1,3 +1,4 @@
-function ObtenerNombreCompleto(nombre,apellido) {
-    return nombre + " " + apellido;
+const obtenerNombreCompleto = (a, b) => {
+        return a + " " +b
 }
+console.log(obtenerNombreCompleto("Lautaro","Acosta")) 

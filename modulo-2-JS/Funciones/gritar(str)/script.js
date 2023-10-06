@@ -1,3 +1,4 @@
-function gritar(str) {
-    return "¡"+ str +"!";
+const gritar = (a) => {
+    return "¡"+ a +"!"
 }
+console.log(gritar("AAAAAA"))
